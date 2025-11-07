@@ -1,0 +1,97 @@
+Statistics notes
+variance is directly associated with the spread of data
+more the variance more spread is the data
+
+Percentile:
+It is the value below which certain percentage of observations lie
+Example:
+percentile of x = (No. of observations below x/ total no of observations) x 100
+
+Index Position = (percentile / 100) x (n+1)
+
+IQR
+lower fence = Q1 - 1.5(IQR)
+Upper fence = Q3 + 1.5(IQR)
+Q1 = 25%
+Q3 = 75%
+IQR = Q3 - Q1
+
+5 number summary
+minimum
+Q1
+median
+Q3
+maximum
+
+Boxplot is plotted based on these five points
+
+Normal distribution
+Empirical formula : 68-95-99.7% 
+Within the first standard deviation 68% of data gets covered and likewise for other std deviations.
+normal distribution has mean = 0 and std deviation = 1.
+
+Z score formula:
+(xi - u)/std dev
+I we apply z score to the normal/gaussian distribution it becomes standard normal distribution.
+This conversion is known as standardization.
+
+Minmax scaler
+converts values to 0 and 1
+
+
+Probability
+Mutually exclusive events:
+Events that cannot occur together.
+
+Non mutually exclusive events:
+Events that can occur together.
+
+Addition rule:
+P(A or B) = P(A) + P(B) - P(A and B)
+
+Multiplication rule for independent events:
+P(A and B) = P(A) * P(B)
+
+Multiplication rule for dependent events:
+P(A and B) = P(A) * P(B|A)
+
+Permutation formula:
+nPr = n!/(n - r)!
+
+Combination formula:
+nCr = n!/r!(n-r)!
+
+Hypothesis Testing
+Type1 error:
+We reject the null hypothesis when in reality it is true.
+
+Type2 error:
+We accept the null hypothesis when in reality it is false.
+
+Point Estimate:
+The value of any statistics that estimates the value of a parameter.
+
+Sample mean = xbar
+Population mean = Mu
+
+Confidence interval: Point estimate +- margin of error.
+
+Z test is applied if population std dev is known else T test is applied.
+
+Chi square test
+It is a test that claims about population proportions.
+It is a non parametric test that is performed on the categorical data(nominal or ordinal) data.
+
+Covariance
+P value < significance value --> Reject or accept null hypothesis
+Cov(x,y) = sum(xi - xbar)(yi - ybar)/N
+
+Pearson Correlation coefficient:
+More the value is near 1 it is more positive correlation
+The more towards -1 more it is negatively correlated
+r= n(∑xy)−(∑x)(∑y)/[n∑x2−(∑x)2][n∑y2−(∑y)2]
+=cov(x,y)/std dev(x).std dev(y)
+
+Spearman rank = cov(x,y)/Rank(stddevx).Rstddev(y)
+​
+   
